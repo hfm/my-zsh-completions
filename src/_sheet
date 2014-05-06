@@ -1,0 +1,8 @@
+#compdef sheet
+#original: http://blog.glidenote.com/blog/2012/04/16/sheet/
+
+_files -W  ~/.sheets/ -P '~/.sheets/'
+
+local -a cmds
+cmds=('list' 'edit' 'copy')
+_describe -t commands "subcommand" cmds

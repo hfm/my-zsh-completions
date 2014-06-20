@@ -4,5 +4,5 @@
 _files -W  ~/.sheets/ -P '~/.sheets/'
 
 local -a cmds
-cmds=('list' 'edit' 'copy')
+cmds=('new' 'list' 'edit' 'copy')
 _describe -t commands "subcommand" cmds

@@ -1,0 +1,6 @@
+#compdef mruby-cli
+
+_arguments -A "-*" \
+    '(- *)'{-h,--help}'[show help]' \
+    '(- *)'{-s,--setup}'[setup your app]' \
+    '(- *)'{-v,--version}'[print mruby-cli version]'
